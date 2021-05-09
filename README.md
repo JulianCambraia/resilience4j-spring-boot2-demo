@@ -4,7 +4,7 @@ Esta demonstração mostra como usar a biblioteca de tolerância a falhas resili
 
 #### 1. Pontos Principais
 
-* O Spring ~~~``Cloud Hystrix``~~~ está depreciado. Portanto, novas aplicações não devem utilizar esse projeto;
+* O Spring ``Cloud Hystrix`` está depreciado. Portanto, novas aplicações não devem utilizar esse projeto;
 * O ``Resilience4j`` é uma nova opção para desenvolvedores Spring implementarem o pattern Circuit Breaker;
 * O ``Resilience4j`` traz outras funcionalidades como o ``Rate Limiter``, ``Retry``' e ``Bulkhead``, além do pattern Circuit Breaker;
 * O ``Resilience4j`` trabalha bem com o spring boot e com ferramentas de monitoramento, permitindo a emissão de métricas;
@@ -62,3 +62,19 @@ A abordagem por thread pool também provê uma fila de espera, rejeitando requis
 cheias. 
 O gerenciamento da thread pool adiciona um pouco de desobrecarga, o que diminui um pouco a performance quando comparado 
 ao uso de semáforos, mas permite que threads fiquem suspensas até expirar, caso não sejam executadas.
+
+
+## 3.0. Construindo uma aplicação Spring Boot com o Resilience4j
+
+Iremos construír dois serviços: o serviço de gerenciamento de livros e, o serviço de gerenciamento de bibliotecas.
+Neste sistema, o serviço de bibliotecas chama o serviço de livros. 
+Será necessário subir e derrubar o serviço de livros para simular diferentes cenários para o Circuit Breaker, Rate Limiter, Retry e Bulkhead.
+
+##### 3.1. Pré-requisitos
+
+* JDK 8;
+* Spring Boot 2.1.x;
+* Resilience4j 1.1.x (a última versão do resilience4j é a 1.7.0 mas o resilience4j-spring-boot2 utiliza a versão 1.1.x);
+* IDE;
+* Gradle;
+* NewRelic APM (Ou Prometheus com Grafana).
