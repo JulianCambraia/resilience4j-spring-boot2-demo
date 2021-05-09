@@ -91,3 +91,8 @@ Também vamos habilitar o swagger para testar a API:
 
 O arquivo de configuração possui apenas uma porta a ser configurada:  
 ![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-002.png?raw=true)
+
+##### 4.0.3. - Implementação do Serviço
+O serviço possui dois métodos, addLivro e retrieveLivrokList. Para a POC, será utilizado uma instância de ArrayList para 
+armazenar as informações dos livros:
+![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-003.png?raw=true)   
