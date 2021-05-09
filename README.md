@@ -4,7 +4,7 @@ Esta demonstração mostra como usar a biblioteca de tolerância a falhas resili
 
 #### 1. Pontos Principais
 
-* O Spring ``Cloud Hystrix`` está depreciado. Portanto, novas aplicações não devem utilizar esse projeto;
+* O Spring ~~~``Cloud Hystrix``~~~ está depreciado. Portanto, novas aplicações não devem utilizar esse projeto;
 * O ``Resilience4j`` é uma nova opção para desenvolvedores Spring implementarem o pattern Circuit Breaker;
 * O ``Resilience4j`` traz outras funcionalidades como o ``Rate Limiter``, ``Retry``' e ``Bulkhead``, além do pattern Circuit Breaker;
 * O ``Resilience4j`` trabalha bem com o spring boot e com ferramentas de monitoramento, permitindo a emissão de métricas;
