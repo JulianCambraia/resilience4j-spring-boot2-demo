@@ -104,3 +104,4 @@ O Rest Controller expõe duas APIs: Um POST para adicionar um livro e, um GET pa
 ##### 4.0.5. - Testes do serviço de gerenciamento de livros
 Para construir e iniciar a aplicação, precisamos utilizar os comandos abaixo:
 ![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-005.png?raw=true)
+
