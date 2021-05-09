@@ -81,8 +81,13 @@ Será necessário subir e derrubar o serviço de livros para simular diferentes 
 
 #### 4.0. Serviço de Gerenciamento de Livros
 
-##### 4.0.1 - Dependências Gradle
+##### 4.0.1. - Dependências Gradle
 Este serviço é uma API REST simples e precisa dos jars padrões do spring boot. 
 Também vamos habilitar o swagger para testar a API:
 
 ![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-001.png?raw=true)
+
+##### 4.0.2. - Configuração
+
+O arquivo de configuração possui apenas uma porta a ser configurada:  
+![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-002.png?raw=true)
