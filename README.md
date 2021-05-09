@@ -95,4 +95,12 @@ O arquivo de configuração possui apenas uma porta a ser configurada:
 ##### 4.0.3. - Implementação do Serviço
 O serviço possui dois métodos, addLivro e retrieveLivrokList. Para a POC, será utilizado uma instância de ArrayList para 
 armazenar as informações dos livros:
-![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-003.png?raw=true)   
+![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-003.png?raw=true)
+
+##### 4.0.4. - Controller
+O Rest Controller expõe duas APIs: Um POST para adicionar um livro e, um GET para buscar os dados dos livros: 
+![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-004.png?raw=true)
+
+##### 4.0.5. - Testes do serviço de gerenciamento de livros
+Para construir e iniciar a aplicação, precisamos utilizar os comandos abaixo:
+![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-005.png?raw=true)
