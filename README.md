@@ -117,6 +117,8 @@ Agora podemos testar a aplicação utilizando a interface de usuário do Swagger
 Este serviço também é uma API REST simples que necessita das dependências padrões do spring boot. Para habilitar o Circuit Breaker
 e as demais features do resilience4, iremos adicionar outras dependências como o ``resilience4j-spring-boot2``, o ``spring-boot-starter-actuator``, 
 e o ``spring-boot-starter-aop``. Além disso, necessitamos adicionar as dependências para habilitar o monitoramento 
-```(micrometer-registry-prometheus, micrometer-registry-new-relic). ``` 
+```(micrometer-registry-prometheus, micrometer-registry-new-relic). ```
+ 
 Por fim, será necessário habilitar o swagger para os testes da API:
+
 ![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-006.png?raw=true) 
