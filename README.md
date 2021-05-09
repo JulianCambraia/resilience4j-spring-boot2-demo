@@ -107,3 +107,15 @@ Para construir e iniciar a aplicação, precisamos utilizar os comandos abaixo:
 
 Agora podemos testar a aplicação utilizando a interface de usuário do Swagger: 
 [swagger](http://localhost:8083/swagger-ui.html)
+
+* Garanta que o serviço esteja executando antes de iniciar o desenvolvimento do serviço de gerenciamento de bibliotecas.
+
+#### 5.0. Serviço de gerenciamento de bibliotecas
+
+##### 5.0.1. Dependências Gradle
+
+Este serviço também é uma API REST simples que necessita das dependências padrões do spring boot. Para habilitar o Circuit Breaker
+ e as demais features do resilience4, iremos adicionar outras dependências como o ``resilience4j-spring-boot2``, o ``spring-boot-starter-actuator``, 
+ e o ``spring-boot-starter-aop``. Além disso, necessitamos adicionar as dependências para habilitar o monitoramento 
+ ```(micrometer-registry-prometheus, micrometer-registry-new-relic). ``` 
+ Por fim, será necessário habilitar o swagger para os testes da API: 
