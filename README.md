@@ -78,3 +78,11 @@ Será necessário subir e derrubar o serviço de livros para simular diferentes 
 * IDE;
 * Gradle;
 * NewRelic APM (Ou Prometheus com Grafana).
+
+#### 4.0. Serviço de Gerenciamento de Livros
+
+##### 4.0.1 - Dependências Gradle
+Este serviço é uma API REST simples e precisa dos jars padrões do spring boot. 
+Também vamos habilitar o swagger para testar a API:
+
+![alt text](https://github.com/juliancambraia/springboot-resilience4j/blob/main/imagens/tela-001.png?raw=true)
