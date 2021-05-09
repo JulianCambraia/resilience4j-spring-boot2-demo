@@ -105,4 +105,5 @@ O Rest Controller expõe duas APIs: Um POST para adicionar um livro e, um GET pa
 Para construir e iniciar a aplicação, precisamos utilizar os comandos abaixo:
 ![alt text](https://github.com/JulianCambraia/resilience4j-spring-boot2-demo/blob/main/images/tela-005.png?raw=true)
 
-Agora podemos testar a aplicação utilizando a interface de usuário do Swagger: [](http://localhost:8083/swagger-ui.html)
+Agora podemos testar a aplicação utilizando a interface de usuário do Swagger: 
+[swagger](http://localhost:8083/swagger-ui.html)
